@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
-//
+// we make variable name and set it to "Dane" as a string 
+// we create condition and check if variable name is set to "mary"
+//we  check condition if variable is not set to "mary"
+//if the condition is true , the outcome will be "hi mary"
+//if the condition is not true , the outcome will be "How do you do"
 //
 //
 // OUTCOME:
-//
+//the console will print "How do you do"
 
 // CODE:
 /*
@@ -59,15 +59,18 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
-//
+// we create a variable  secret and set the value to be empty
+//we create a variable and set  the value to be a number 123 
+// we check a condition if code is equal to 123
+//if condition is true , we set the value of secret to "super " and get the value of code and multiply by two
+//we check another condition and check if the value of code is greater than 250
 // OUTCOME:
-//
+//super will be displayed in the console because code ===123
 
 // CODE:
-/*
+
+/* 
+
 let secret;
 
 let code = 123;
@@ -89,12 +92,16 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// we create a variable isStudent and set it to a boolean true
+// we create a varibale age and set it to number 34
+// we create a variable zip and set it to a number 55407
+// we check for a condition if student is true and zip is greater than 8000
+// we check for a condition if isStudent is false or age is less than 30
+//we check for one condition if student is true 
+// we check if none of the condition is true 
+
 // OUTCOME:
-//
+// Welcome to prime will be displayed in the console as this is the only true statement 
 
 // CODE:
 /*
@@ -163,7 +170,18 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+//FIX - variable names and the value does not match , colorOne is set to red instead of blue
+// colorTwo variable is set to blue instead of red 
+/* let colorOne = 'blue';
+let colorTwo = 'red';
+let mix = true;
 
+if (mix === true) {
+  colorOne = 'purple';
+}
+  // outcome 
+  // mix is true , the value of colorOne will be purple
+//
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
@@ -171,7 +189,7 @@ if (mix === true) {
 // DESCRIPTION:
 // We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
-// -- they are so we console.log 'throw away the food!'
+// -- they are so we console.log 'throw away the food!!'
 
 // CODE:
 /*
@@ -182,6 +200,17 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+//FIX 
+// the condition checks if temp is set to 40 AND time is greater than 4
+// CODE:
+/*
+let temp = 40;
+const time = 4;
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+
 
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
@@ -197,9 +226,23 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+if(minAge <= age) {`
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
+//FIX 
+// the condition is set incorectly , change the minAge <= age to age is >= minAge
+//// CODE:
+/*
+let age = 21;
+const minAge = 21;
+
+if(age >= minAgege) {
+  console.log('no entry');
+} else {
+  console.log('enter');
+}
+  enter will be displayed in the console 
+  */
